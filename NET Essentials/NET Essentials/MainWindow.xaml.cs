@@ -15,7 +15,8 @@ namespace NET_Essentials
 
         private void Test(object sender, RoutedEventArgs e)
         {
-            AsyncVoidProblem.TestAsyncVoid().Wait();
+            //AsyncVoidProblem.TestAsyncVoid().Wait();
+            IDisposablePattern.TestIDisposable();
         }
     }
 }
